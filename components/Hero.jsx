@@ -31,6 +31,8 @@ const Hero = () => {
                         </Link>
                         <Button variant="secondary" className="gap-x-2">Download CV<Download size={18}/></Button>
                     </div>
+                    {/*Socials*/}
+                    <Socials containerStyles="flex gap-x-6 mx-auto xl:mx:0" iconsStyles="text-foreground text-[22px] hover:text-primary transition-all"/>
                 </div>
                 {/*Image*/}
                 <div className="hidden xl:flex relative">Image</div>
