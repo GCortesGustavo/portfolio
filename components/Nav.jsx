@@ -43,3 +43,5 @@ const Nav = ({containerStyles, linkStyles, underlineStyles}) => {
 }
 
 export default Nav
+
+//Pathname se utiliza para obtener la ruta actual de la URL

@@ -31,3 +31,5 @@ const Template = ({ children }) => {
 }
 
 export default Template
+
+//Los elementos children nos referimos a los elementos que pasan como hijos a un componente React.

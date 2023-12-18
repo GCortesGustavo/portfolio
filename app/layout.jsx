@@ -27,3 +27,6 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
+
+//suppressHydrationWarning: Se utiliza para suprimir advertencias en tiempo de ejecución relacionadas con la hidratacion de datos del servidor. En el contexto de Next.js, la hidratación es el proceso de sincronizar el estado del lado del servidor con el estado del lado del cliente al renderizar una aplicación de React en el servidor y luego continuar la ejecución en el navegador. La supresión de advertencias relacionadas con la hidratación puede ser útil en ciertos casos para evitar mensajes innecesarios en la consola del navegador. 

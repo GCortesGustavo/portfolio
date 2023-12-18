@@ -53,3 +53,5 @@ const Header = () => {
 
 
 export default Header
+
+//Sticky asegura que el encabezado se adhiera en la parte superior de la pagina al hacer scroll.

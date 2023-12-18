@@ -17,3 +17,5 @@ const ThemeToggler = () => {
 }
 
 export default ThemeToggler
+
+//Boton que alterna los temas de la aplicación
