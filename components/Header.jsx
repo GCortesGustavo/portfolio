@@ -7,6 +7,7 @@ import Logo from "./ui/Logo";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 import { usePathname } from "next/navigation";
+import { Sheet } from "./ui/sheet";
 
 
 const Header = () => {
@@ -24,6 +25,7 @@ const Header = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     })
     return (
+        
         <header 
         className={`${
             header 
@@ -46,6 +48,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
+            <Sheet className="bg-red-50"/>
             </div>
         </header>
     )
