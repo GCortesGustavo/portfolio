@@ -25,7 +25,8 @@ const Hero = () => {
                 <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left ">
                     <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">Web Developer</div>
                     <h1 className="h1 mb-4">Hello, my name is Gustavo Cortés</h1>
-                    <p className="subtitle max-w-[490px] mx-auto xl:mx-0">Brief description with insights into myself, my vocational journey, and what i engage in professionally</p>
+                    <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
+"Embarking on web development, marketing technician, and UX/UI design; my professional journey is marked by passion, adaptability, and a desire to grow."</p>
                     {/*Buttons*/}
                     <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
                         <Link href="/contact"> 
@@ -45,7 +46,7 @@ const Hero = () => {
                     badgeText="Finished Proyects"/>
                     {/*Badge 3*/}
                     <Badge containerStyles="absolute top-[55%] -right-8" icon={<RiToolsFill />} endCountNum={5} endCountText=""
-                    badgeText="Frameworks and language"/>
+                    badgeText="Frameworks And Language"/>
                     <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
                     <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc="/hero/developer.png"/>
                 </div>
