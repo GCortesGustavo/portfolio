@@ -18,33 +18,33 @@ const projectData = [
         image: "/work/1.png",
         category: "Next14",
         name: "Portfolio",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
+        description: "Personal website to share my work and services, and connect with clients from all countries",
         link: "/",
-        github: "/",
+        github: "https://github.com/GCortesGustavo/portfolio",
     },
     {
         image: "/work/3.png",
         category: "Astro",
         name: "TestaClone",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
+        description: "Clone of the main tesla page to learn about the astro library and improve my knowledge in tailwind css",
         link: "/",
-        github: "/",
+        github: "https://github.com/GCortesGustavo/TestaClone",
     },
     {
         image: "/work/2.png",
         category: "React js",
         name: "Livechatg",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
+        description: "Real-time chat where the messages sent and the people who send them are stored. Socket.io is used.",
         link: "/",
-        github: "/",
+        github: "https://github.com/GCortesGustavo/LiveChatg",
     },
     {
         image: "/work/3.png",
         category: "Next13",
         name: "Rofe Ferretería",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
-        link: "/",
-        github: "/",
+        description: "App for the internal management of a hardware store, contains Google Auth payment gateway, etc.",
+        link: "https://pf-ferreteria.vercel.app/login",
+        github: "https://github.com/ImanolBraccciale/PF-Ferreteria",
     },
     {
         image: "/work/2.png",
@@ -60,7 +60,15 @@ const projectData = [
         name: "Rick And Morty",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
         link: "/",
-        github: "/",
+        github: "https://github.com/GCortesGustavo/RickAndMorty",
+    },
+    {
+        image: "/work/1.png",
+        category: "Next13",
+        name: "First Next Project",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
+        link: "/",
+        github: "https://github.com/GCortesGustavo/FirstNextProyect",
     },
     {
         image: "/work/4.png",
@@ -76,7 +84,7 @@ const projectData = [
         name: "HTML/CSS practice",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
         link: "/",
-        github: "/",
+        github: "https://github.com/GCortesGustavo/FirstProyects",
     },
 ]
 
@@ -87,7 +95,7 @@ const Work = () => {
             {/*Text */}
             <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12  xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
                 <h2 className="section-title mb-4">Latest Projects</h2>
-                <p className="subtitle mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p className="subtitle mb-8">Latest projects that I have carried out personally and in groups.</p>
                 <Link href="/projects">
                     <Button>All Projects</Button>
                 </Link>
