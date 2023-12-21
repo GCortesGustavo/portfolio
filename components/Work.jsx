@@ -15,30 +15,6 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
     {
-        image: "/work/3.png",
-        category: "Next13",
-        name: "Rofe Ferretería",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
-        link: "/",
-        github: "/",
-    },
-    {
-        image: "/work/4.png",
-        category: "React js",
-        name: "Rick And Morty",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
-        link: "/",
-        github: "/",
-    },
-    {
-        image: "/work/2.png",
-        category: "React js",
-        name: "Livechatg",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
-        link: "/",
-        github: "/",
-    },
-    {
         image: "/work/1.png",
         category: "Next14",
         name: "Portfolio",
@@ -55,9 +31,17 @@ const projectData = [
         github: "/",
     },
     {
-        image: "/work/4.png",
+        image: "/work/2.png",
         category: "React js",
-        name: "WeatherApp",
+        name: "Livechatg",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
+        link: "/",
+        github: "/",
+    },
+    {
+        image: "/work/3.png",
+        category: "Next13",
+        name: "Rofe Ferretería",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
         link: "/",
         github: "/",
@@ -66,6 +50,22 @@ const projectData = [
         image: "/work/2.png",
         category: "React js and Typescript",
         name: "Pokedex",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
+        link: "/",
+        github: "/",
+    },
+    {
+        image: "/work/4.png",
+        category: "React js",
+        name: "Rick And Morty",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
+        link: "/",
+        github: "/",
+    },
+    {
+        image: "/work/4.png",
+        category: "React js",
+        name: "In progress...",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
         link: "/",
         github: "/",
@@ -94,7 +94,7 @@ const Work = () => {
             </div>
             {/*Slider*/}
             <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
-                <Swiper className="h-[480px]" 
+                <Swiper className="h-[480px]"  
                     slidesPerView={1} 
                     breakpoints={{640: {
                     slidesPerView: 2,
