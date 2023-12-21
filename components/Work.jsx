@@ -15,7 +15,7 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
     {
-        image: "/work/1.png",
+        image: "/work/portfolio.png",
         category: "Next14",
         name: "Portfolio",
         description: "Personal website to share my work and services, and connect with clients from all countries",
@@ -23,7 +23,7 @@ const projectData = [
         github: "https://github.com/GCortesGustavo/portfolio",
     },
     {
-        image: "/work/3.png",
+        image: "/work/tesla.png",
         category: "Astro",
         name: "TestaClone",
         description: "Clone of the main tesla page to learn about the astro library and improve my knowledge in tailwind css",
@@ -39,7 +39,7 @@ const projectData = [
         github: "https://github.com/GCortesGustavo/LiveChatg",
     },
     {
-        image: "/work/3.png",
+        image: "/work/ferretería.png",
         category: "Next13",
         name: "Rofe Ferretería",
         description: "App for the internal management of a hardware store, contains Google Auth payment gateway, etc.",
@@ -55,7 +55,7 @@ const projectData = [
         github: "/",
     },
     {
-        image: "/work/4.png",
+        image: "/work/rick.png",
         category: "React js",
         name: "Rick And Morty",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
