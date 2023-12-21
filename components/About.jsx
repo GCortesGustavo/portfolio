@@ -147,7 +147,7 @@ const About = () => {
                                     {/* personal*/}
                                     <TabsContent value="personal">
                                         <div className="text-center xl:text-left">
-                                            <h3 className="h3 mb-4">Unmatched Service Qualitity for Over 1 year</h3>
+                                            <h3 className="h3 mb-4">Unmatched Service Qualitity</h3>
                                             <p className="subtitle max-w-xl mx-auto xl:mx-0">I specialize in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experience.</p>
                                             {/*Icons*/}
                                             <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -162,7 +162,7 @@ const About = () => {
                                             <div className="flex flex-col gap-y-2">
                                                 <div className="text-primary">Language Skill</div>
                                                 <div className="border-b border-border"></div>
-                                                <div>Spanish(native),  English(B1-intermediate)</div>
+                                                <div>Spanish(native),  <br /> English(B1-intermediate)</div>
 
                                             </div>
                                         </div>
@@ -170,7 +170,7 @@ const About = () => {
                                     {/* Qualifications*/}
                                     <TabsContent value="qualifications">
                                         <div>
-                                                <h3 className="h3 mb-8 text-center xl:text-left">My Awesome Journey</h3>
+                                                <h3 className="h3 mb-8 text-center xl:text-left">My Professional Journey</h3>
                                                 <div className="grid md:grid-cols-2 gap-y-8">
                                                     {/**Experience */}
                                                     <div className="flex flex-col gap-y-6">

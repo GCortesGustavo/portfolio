@@ -5,7 +5,8 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 //themeprovider
-import { ThemeProvider } from '@/components/ThemeProvider'
+import { ThemeProvider } from '@/components/ThemeProvider';
+
 
 const outfit = Outfit({ subsets: ['latin'] })
 

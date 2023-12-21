@@ -32,7 +32,9 @@ const Hero = () => {
                         <Link href="/contact"> 
                             <Button className="gap-x-2">Contact Me <Send size={18}/></Button>
                         </Link>
-                        <Button variant="secondary" className="gap-x-2">Download CV<Download size={18}/></Button>
+                        <Link href="/CV_GUSTAVO_CORTES.pdf" target="_blank" rel="noopener noreferrer" passHref download="/CV_GUSTAVO_CORTES.pdf">
+                                <Button variant="secondary" className="gap-x-2">Download CV<Download size={18}/></Button>
+                        </Link>
                     </div>
                     {/*Socials*/}
                     <Socials containerStyles="flex gap-x-6 mx-auto xl:mx-0" iconsStyles="text-foreground text-[22px] hover:text-primary transition-all"/>
@@ -40,15 +42,15 @@ const Hero = () => {
                 {/*Image*/}
                 <div className="hidden xl:flex relative">
                     {/*Badge 1*/}
-                    <Badge containerStyles="absolute top-[24%] -left-[5rem]" icon={<RiBriefcase4Fill />} endCountNum={1} badgeText="Years Of Experience"/>
+                    <Badge containerStyles="absolute top-[20%] -left-[5rem]" icon={<RiBriefcase4Fill />} endCountNum={1} badgeText="Years Of Experience"/>
                     {/*Badge 2*/}
-                    <Badge containerStyles="absolute top-[80%] -left-[1rem]" icon={<RiTodoFill />} endCountNum={6} endCountText="" 
+                    <Badge containerStyles="absolute top-[75%] -left-[1rem]" icon={<RiTodoFill />} endCountNum={10} endCountText="" 
                     badgeText="Finished Proyects"/>
                     {/*Badge 3*/}
-                    <Badge containerStyles="absolute top-[55%] -right-8" icon={<RiToolsFill />} endCountNum={5} endCountText=""
+                    <Badge containerStyles="absolute top-[50%] -right-8" icon={<RiToolsFill />} endCountNum={10} endCountText=""
                     badgeText="Frameworks And Language"/>
-                    <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
-                    <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc="/hero/developer.png"/>
+                    <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-8 -right-2"></div>
+                    <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] -top-6 bg-no-repeat relative bg-bottom" imgSrc="/hero/developer.png"/>
                 </div>
             </div>
             {/*Icon*/}
