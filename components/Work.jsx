@@ -47,7 +47,7 @@ const projectData = [
         github: "https://github.com/ImanolBraccciale/PF-Ferreteria",
     },
     {
-        image: "/work/2.png",
+        image: "/work/image.png",
         category: "React js and Typescript",
         name: "Pokedex",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere.",
