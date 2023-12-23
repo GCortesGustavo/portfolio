@@ -31,7 +31,7 @@ const projectData = [
         github: "https://github.com/GCortesGustavo/TestaClone",
     },
     {
-        image: "/work/2.png",
+        image: "/work/chatOficial.png",
         category: "React js",
         name: "Livechatg",
         description: "Real-time chat where the messages sent and the people who send them are stored. Socket.io is used.",

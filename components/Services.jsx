@@ -11,19 +11,19 @@ const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8}/>,
         title: "Web Design",
-        description: "Crafting adaptable and intuitive web designs to exceed your expectations and deliver the best online experience. Transforming your vision into a stunning and functional website, prioritizing your satisfaction at every step of the process."
+        description: "Crafting exceptional web designs that exceed your expectations. I transform your vision into a stunning, functional website, prioritizing your satisfaction at every step."
 
     },
     {
       icon: <Blocks size={72} strokeWidth={0.8}/>,
       title: "Web Development",
-      description: "Crafting seamless web development solutions tailored to your needs. I bring your ideas to life with expert coding and functionality, ensuring a powerful and user-friendly online presence. Your satisfaction is my priority as I code, optimize, and elevate your digital experience."
+      description: "Crafting personalized web solutions with expert coding for a powerful, user-friendly online presence. Your satisfaction is my top priority."
       
   },
   {
     icon: <Gem size={72} strokeWidth={0.8}/>,
     title: "Digital Marketing",
-    description: "Fueling online success with personalized digital marketing. I optimize campaigns, elevate your brand, and focus on your goals for maximum digital impact and satisfaction."
+    description: "Driving online success through personalized digital marketing. I optimize campaigns, enhance your brand, and prioritize your goals for maximum digital impact and satisfaction."
     
 }
 ]
