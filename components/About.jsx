@@ -128,7 +128,7 @@ const About = () => {
     return (
         <section className="xl:h-[860px] pb-12 xl:py-24">
             <div className="container mx-auto">
-                <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">About Me</h2>
+                <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto sm:mt-7 md:mt-7  lg:mt-7">About Me</h2>
                 <div className="flex flex-col xl:flex-row">
                     {/*Image*/}
                     <div className="hidden xl:flex flex-1 relative">
